@@ -9,7 +9,7 @@
                     <p class="icon-desc">{{item.text}}</p>
                 </div>
             </swiper-slide>
-            <!-- <div class="swiper-pagination" slot="pagination"></div> -->
+            <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
     </div>
 </template>
@@ -82,6 +82,7 @@ export default {
         overflow: hidden
         height: 0
         padding-bottom: 50%
+        margin: .2rem 0
         .icon
             position: relative
             float: left
