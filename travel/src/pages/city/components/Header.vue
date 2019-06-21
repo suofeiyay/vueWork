@@ -5,7 +5,6 @@
             <div class="iconfont city-back">&#xe624;</div>
         </router-link>
     </div>
-    </div>
 </template>
 <script>
 export default {
@@ -16,8 +15,8 @@ export default {
     @import '~styles/varibles.styl'
     .header
         position: relative
-        height: .8rem
-        line-height: .8rem
+        height: $HeaderHeight
+        line-height: $HeaderHeight
         background: $bgcolor
         color: #fff
         text-align: center
